@@ -1,6 +1,6 @@
 // Get the current weather
 async function getWeather() {
-    const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Trondheim,Norway&appid=bd5e378503939ddaee76f12ad7a97608');
+    const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=YOUR_LOCATION&appid=bd5e378503939ddaee76f12ad7a97608');
     const data = await response.json();
     
     return data;
